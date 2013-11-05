@@ -14,11 +14,11 @@
 <div class="pagination">
   <ul>
     <li><a href="/?page=<%= @page_number - 5%>">Prev</a></li>
-    <li><a href="#"><%= @page_number - 2 %></a></li>
-    <li><a href="#"><%= @page_number -1 %></a></li>
-    <li class="active"><a href="#"><%= @page_number%></a></li>
-    <li><a href="#"><%= @page_number + 1 %></a></li>
-    <li><a href="#"><%= @page_number + 2 %></a></li>
+    <li><a href="/?page=<%= @page_number - 2 %>"><%= @page_number - 2 %></a></li>
+    <li><a href="/?page=<%= @page_number -1 %>"><%= @page_number - 1 %></a></li>
+    <li class="active"><a href="/?page=<%= @page_number %>"><%= @page_number%></a></li>
+    <li><a href="/?page=<%= @page_number + 2%>"><%= @page_number + 1 %></a></li>
+    <li><a href="/?page=<%= @page_number + 2%>"><%= @page_number + 2 %></a></li>
     <li><a href="/?page=<%= @page_number + 5%>">Next</a></li>
   </ul>
 </div>
